@@ -15,12 +15,10 @@ generally people choose 'X' and 'O'.
     | 2 0  | 2 1  | 2 2  |
 
     so to access top-left cell you will input "0 0" in the terminal.
--   every instruction will get printed in terminal too as you run the program, so nothing to worry about.
+-   every instruction will get printed in terminal too as you run the program.
 -   Computer tries best move to avoid player winning, unless player is winning by 2 ways or computer is winninng in a chance. 
--   in the main java file, i made a class "coordinate", which store row number, column number, but i chose not to completely replace it everywhere where it can be replaced, because 
-    it was making my code less readable.
 -   Comments are present inside code to explain functionality of the methods and classes.
--   To run the program:
+-   To run the program, type following commands in your terminal:
     : javac TicTacToe.java
     : java TicTacToe
 .
